@@ -1,4 +1,5 @@
 apis = {
+	"vimrcDefault",
 	"command",
 	"config",
 	"file",
