@@ -10,7 +10,7 @@ apis = {
 
 function load(path)
 	for i=1, #apis do
-		local test = os.loadAPI(path..apis[i])
+		local test = os.loadAPI(path.."/"..apis[i])
 		if not test then
 			error(apis[i])
 		end
