@@ -1,4 +1,4 @@
-apiPath = "/utils/vimfiles/"
+apiPath = fs.getDir(shell.getRunningProgram()).."/"
 apis = {
 	"command",
 	"config",

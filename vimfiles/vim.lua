@@ -1,5 +1,4 @@
---/utils/vimfiles/apiloader.loadAPI( "/utils/vimfiles/" );
-os.loadAPI( "/utils/vimfiles/apiloader" )
+os.loadAPI(fs.getDir(shell.getRunningProgram()).."/apiloader")
 apiloader.load()
 
 -- start main
