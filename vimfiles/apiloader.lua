@@ -1,4 +1,3 @@
-apiPath = fs.getDir(shell.getRunningProgram()).."/"
 apis = {
 	"command",
 	"config",
@@ -9,9 +8,9 @@ apis = {
 	"vimode",
 }
 
-function load()
+function load(path)
 	for i=1, #apis do
-		local test = os.loadAPI(apiPath..apis[i])
+		local test = os.loadAPI(path..apis[i])
 		if not test then
 			error(apis[i])
 		end

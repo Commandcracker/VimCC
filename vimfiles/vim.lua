@@ -1,5 +1,6 @@
-os.loadAPI(fs.getDir(shell.getRunningProgram()).."/apiloader")
-apiloader.load()
+local _path = fs.getDir(shell.getRunningProgram())
+os.loadAPI(_path.."/apiloader")
+apiloader.load(_path)
 
 -- start main
 local args = {...}
