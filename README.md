@@ -25,7 +25,6 @@ There are two ways to install the program:
 pastebin run gTMnqnRk
 pack add-source commandcracker https://raw.githubusercontent.com/Commandcracker/CC-packages/master/packages.json
 pack install vim
-reboot
 ```
 
 ### Manually
