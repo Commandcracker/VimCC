@@ -1,7 +1,5 @@
 # VimCC
 
-The current pastebin code: `Q45Vadaw`
-
 **By default `tab` is binded to exit insert mode, this can be rebound in the vimrc!**
 
 Dissatisfied with the existing editor in ComputerCraft (seriously, try using it
@@ -23,12 +21,10 @@ There are two ways to install the program:
 
 ### Via the Installer
 
-The installer is both available as part of this [repo](./installer),
-and as a download from pastebin, which can be directly gotten in the game by
-running the following command in a ComputerCraft terminal:
-
 ```bash
-pastebin run Q45Vadaw
+pastebin run gTMnqnRk
+pack add-source commandcracker https://raw.githubusercontent.com/Commandcracker/CC-packages/master/packages.json
+pack install vim
 ```
 
 ### Manually
