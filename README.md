@@ -23,7 +23,7 @@ There are two ways to install the program:
 
 ```bash
 pastebin run gTMnqnRk
-pack add-source commandcracker https://raw.githubusercontent.com/Commandcracker/CC-packages/master/packages.json
+pack add-source commandcracker https://raw.githubusercontent.com/Commandcracker/CC-packages/master/pack.json
 pack install vim
 ```
 
